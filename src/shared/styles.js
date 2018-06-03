@@ -1,5 +1,5 @@
 export const colors = {
-  blue: '#057ee6'
+  blue: '#0ca7aa'
 }
 
 const breakpoints = {

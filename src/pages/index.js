@@ -2,7 +2,6 @@ import React from 'react'
 import { Persist } from "react-persist"
 import Link from 'gatsby-link'
 import Sidebar from '../components/Sidebar'
-import Newsletter from '../components/Newsletter'
 import { steps, roles } from '../data.js'
 import meta from '../shared/meta.js'
 import Arrow from '../images/arrow-bottom.svg'
@@ -40,7 +39,7 @@ class Li extends React.Component {
           <div className={`check ${this.state.isChecked ? 'checked' : ''}`} onClick={this.handleToggle}>
             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
               <g fill="none" fillRule="evenodd" strokeWidth="3" transform="translate(2 2)">
-                <path stroke="#057ee6" d="M6 11.402l2.874 2.934L16.06 7"></path>
+                <path stroke="#0ca7aa" d="M6 11.402l2.874 2.934L16.06 7"></path>
                 <circle cx="11" cy="11" r="11"></circle>
               </g>
             </svg>
@@ -153,18 +152,18 @@ class IndexPage extends React.Component {
             <div className="col-9">
               <h1>The GDPR Compliance Checklist</h1>
               <h2 className="description first">Achieving GDPR Compliance shouldn't feel like a struggle.
-              This is a basic checklist you can use to harden your GDPR compliancy.</h2>
+              This is a basic checklist we can use to harden your GDPR compliancy.</h2>
 
-              <p className="small description">if your organisation is determining the purpose of the storage or processing of personal information, it is considered a <b>controller</b>. If your organisation stores or processes personal data on behalf of another organisation, it is considered a <b>processor</b>. It is possible for your organisation to have both roles. Use the filter below to view only the relevant checklist items for your organisation.</p>
+              <p className="small description">if Edraak is determining the purpose of the storage or processing of personal information, it is considered a <b>controller</b>. If it stores or processes personal data on behalf of another organisation, it is considered a <b>processor</b>. It is possible for Edraak to have both roles. Use the filter below to view only the relevant checklist items for Edraak.</p>
 
               <p className="small description">
               This list is far from a legal exhaustive document, it merely tries to help you overcome the struggle.
 
-              <br/><br/>Feel free to <a href="https://github.com/privacyradius/gdpr-checklist" target="_blank">contribute directly</a> on GitHub!
+              <br/><br/>Feel free to <a href="https://github.com/Edraak/gdpr-checklist" target="_blank">contribute directly</a> on GitHub!
               </p>
 
               <div className="filter-bar">
-                <h3>Select your organisation's role:</h3>
+                <h3>Select Edraak's role:</h3>
                 <ul className="selected-three">
                   <li onClick={this.toggleController} className={this.state.controllerSelected ? 'controller' : ''}><h2>Data Controller: I determine why data is processed</h2></li>
                   <li onClick={this.toggleProcessor} className={this.state.processorSelected ? 'processor' : ''}><h2>Data Processor: I store or process data for someone else</h2></li>
@@ -175,13 +174,7 @@ class IndexPage extends React.Component {
                     return <Section key={s.id} list={[s]} controllerSelected={this.state.controllerSelected} processorSelected={this.state.processorSelected} />
                     }).bind(this)
                     ) }
-              <Newsletter />
               <Disclaimer />
-              <Footer
-                gertjan={this.props.data.gertjan}
-                willem={this.props.data.willem}
-                johan={this.props.data.johan}
-                />
             </div>
           </div>
         </div>

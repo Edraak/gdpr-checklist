@@ -34,7 +34,7 @@ h1 {
   font-family: sans-serif;
   font-size: 2.2rem;
   line-height: .9;
-  color: #057ee6;
+  color: #0ca7aa;
   margin-top: 7vh;
   margin-bottom: 40px;
     font-weight: 600;
@@ -52,7 +52,7 @@ h1 {
   font-size: 1.28571rem;
   line-height: 2;
   letter-spacing: .2px;
-  color: #057ee6;
+  color: #0ca7aa;
   text-transform: uppercase;
 }
 @media screen and (max-width:960px) {
@@ -220,11 +220,11 @@ body, html {
   margin: 0 auto;
 }
 }::-moz-selection {
-  background-color: #057ee6;
+  background-color: #0ca7aa;
   color: #fff;
 }
 ::selection {
-  background-color: #057ee6;
+  background-color: #0ca7aa;
   color: #fff;
 }
 .fixed {
@@ -388,7 +388,7 @@ body, html {
   display: block;
 }
 nav li.active a {
-  color: #057ee6;
+  color: #0ca7aa;
 }
 nav li a {
   font-family: sans-serif;
@@ -402,7 +402,7 @@ nav li a {
   transition: .2s ease;
 }
 nav li a:hover {
-  color: #057ee6;
+  color: #0ca7aa;
 }
 @media screen and (max-width:960px) {
   nav {
@@ -428,7 +428,7 @@ nav li a:hover {
   transition: .2s ease;
 }
 .social li a:hover svg path {
-  fill: #057ee6;
+  fill: #0ca7aa;
 }
 @media screen and (max-width:960px) {
   .social {
@@ -466,13 +466,13 @@ nav li a:hover {
   vertical-align: middle;
 }
 .checklist li .header .check.checked:hover circle {
-  stroke: #057ee6;
+  stroke: #0ca7aa;
 }
 .checklist li .header .check.checked path {
   stroke-dashoffset: 0;
 }
 .checklist li .header .check.checked circle {
-  stroke: #057ee6;
+  stroke: #0ca7aa;
 }
 .checklist li .header .check svg {
   display: inline-block;
@@ -561,7 +561,7 @@ nav li a:hover {
   font-family: sans-serif;
   font-size: 1.2rem;
   line-height: 1.8;
-  color: #057ee6;
+  color: #0ca7aa;
   text-decoration: none;
   word-break: break-all;
 }
@@ -606,7 +606,7 @@ nav li a:hover {
   max-width: 250px;
   width: 100%}
 .submit-button {
-  background-color: #057ee6;
+  background-color: #0ca7aa;
   font-size: 1rem;
   color: #fff;
   text-transform: uppercase;
@@ -643,7 +643,7 @@ a.submit-button {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #057ee6;
+  background-color: #0ca7aa;
   text-align: center;
   overflow: auto;
   opacity: 0;
@@ -801,7 +801,7 @@ a.submit-button {
   transition: .2s ease;
 }
 .mobile-menu .social-mob li a:hover svg path {
-  fill: #057ee6;
+  fill: #0ca7aa;
 }
 @media screen and (min-width:961px) {
   .mobile-menu {
@@ -879,7 +879,7 @@ a.submit-button {
   margin-bottom: 100px;
   color: white;
   padding: 40px;
-  background-image: linear-gradient(105deg, #1cd268, #0fd05f);
+  background-image: linear-gradient(105deg, #ef2243, #de2241);
   border-radius: 5px;
 }
 .disclaimer h5 {
@@ -993,7 +993,7 @@ footer .gradient a+a {
 }
 }
 .is-current a {
-  color: #057ee6;
+  color: #0ca7aa;
 }
 @media screen and (max-width:960px) {
   .newsletter-sidebar {
@@ -1001,10 +1001,10 @@ footer .gradient a+a {
   }
 }
 .controller, .filter-bar li.controller {
-  background-color: #E7E7F9;
-  color: #807DD3;
+  background-color: #0ca7aa;
+  color: white;
 }
 .processor, .filter-bar li.processor {
-  background-color: #E7F5F9;
-  color: #5FA2E1;
+  background-color: rgba(255, 215, 87, 0.8);
+  color: black;
 }

@@ -18,7 +18,7 @@ module.exports = {
         background_color: "#FFF",
         theme_color: "#057de6",
         display: "minimal-ui",
-        icon: "src/images/favicon.png", // This path is relative to the root of the site.
+        icon: "src/images/favicon.ico", // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-offline`,
@@ -46,7 +46,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-favicon',
       options: {
-        logo: './src/images/favicon.png',
+        logo: './src/images/favicon.ico',
         injectHTML: true,
         icons: {
           android: true,

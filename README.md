@@ -2,23 +2,20 @@
 
 ## How to add updates to the checklist
 
-- fork this repository
+- clone this repository
 - edit the file src/data.js
 - create a pull request
 
 
 ## Quickstart
 
-- run npm install --global gatsby-cli
-- run npm i in the root folder of this repository
-- run gatsby develop
+- run `npm install --global gatsby-cli`
+- run `npm i` in the root folder of this repository
+- run `gatsby develop`
 - visit localhost:8000 in your browser
 
-## Deployment
-
-- changes will automatically be deployed to https://gdprchecklist.io/
 
 ## Attribution
 
-The project is inspired by [The SaaS CTO Security Checklist](https://cto-security-checklist.sqreen.io/) 
-created by [Sqreen.io](https://www.sqreen.io/)
+The project is inspired by [gdpr-checklist]https://github.com/privacyradius/gdpr-checklist)
+created by [privacyradius](https://github.com/privacyradius)
